@@ -1,13 +1,14 @@
+#manuele test simulatie, ik heb geprobeerd te werken met een visual bar maar dat lukte niet volledig je kan de code vinden in visual.py
 from program import *
 import asyncio
 import time
 versnelling_factor = int(input("hoe snel wil je gaan?"))
 
-"""def progess_bar(progress, total):
+def progess_bar(progress, total):
     percent = 100 * (progress / float(total))
     bar = '+' * int(percent) + '-' * (100 - int(percent))
     print(f"\r|{bar}|{percent:.2f}%", end="\r")
-"""
+
 async def vis():
     for _ in range(1000):
         progess_bar(len(Station1.bikes), Station1.capacity)

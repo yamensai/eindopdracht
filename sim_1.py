@@ -1,3 +1,4 @@
+#automatische simulatie zonder pickle 
 import asyncio
 import time
 import random
